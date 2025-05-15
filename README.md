@@ -13,7 +13,7 @@ The system consists of a full automation pipeline developed in Python, integrati
     - Authenticates via Google Service Account
     - Pulls the latest data from [Google Sheets](https://docs.google.com/spreadsheets/d/1Y8VlU05ekfbwExSMjp0fuCxXJOgKMyvtCUt3c3jFfIc/edit?gid=0#gid=0)
     - Cleans and transforms the data
-    - Writes the transformed data to a new (or existing) Google Sheet
+    - Writes the transformed data to a new (or existing) [Google Sheet](https://docs.google.com/spreadsheets/d/1_hUXV_dGfWpPaV2GJVmcrJjOfHMVRJp36CxEw8eX3RQ/edit?gid=0#gid=0)
 3. The pipeline is scheduled to run automatically every day at 1:00 PM using a CRON job. This ensures the dashboard reflects the most up-to-date job application data without requiring manual execution.
 4. The cleaned sheet is connected to Looker Studio as a live data source, powering a fully interactive dashboard which can be viewed with this [link](https://lookerstudio.google.com/reporting/4859dc74-f96e-4b54-9009-c158070a4045).
 
