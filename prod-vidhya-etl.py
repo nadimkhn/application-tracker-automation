@@ -19,7 +19,7 @@ from datetime import datetime
 
 # Configuration
 
-SERVICE_ACCOUNT_FILE = '/Users/nadee/Desktop/PROJECTS/vidhya-etl/secrets/vidhya-etl-dabd5ec76159.json'  # Path to your downloaded JSON file
+SERVICE_ACCOUNT_FILE = '/Users/nadee/Desktop/PROJECTS/application-tracker-automation/secrets/vidhya-etl-dabd5ec76159.json'  # Path to your downloaded JSON file
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets', 
           'https://www.googleapis.com/auth/drive']  # Read & write scope
 SPREADSHEET_ID = '1Y8VlU05ekfbwExSMjp0fuCxXJOgKMyvtCUt3c3jFfIc'  # From the URL between /d/...../edit
