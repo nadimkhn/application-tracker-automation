@@ -4,6 +4,7 @@
 
 # Jupyter
 .ipynb_checkpoints/
+.Rhistory
 
 # Python
 __pycache__/

@@ -17,6 +17,8 @@ The system consists of a full automation pipeline developed in Python, integrati
 3. The pipeline is scheduled to run automatically every day at 1:00 PM using a CRON job. This ensures the dashboard reflects the most up-to-date job application data without requiring manual execution.
 4. The cleaned sheet is connected to Looker Studio as a live data source, powering a fully interactive dashboard which can be viewed with this [link](https://lookerstudio.google.com/reporting/4859dc74-f96e-4b54-9009-c158070a4045).
 
+<img src="images/dashboard_sample.png" alt="Dashboard Preview" width="650"/>
+
 ### Chart Guide
 
 1. Applications Today - Total number of applications submitted today
